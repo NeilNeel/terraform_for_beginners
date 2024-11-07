@@ -1,3 +1,6 @@
+## Terraform Code
+
+```
 terraform {
   required_providers {
     aws = {
@@ -14,10 +17,11 @@ provider "aws" {
 }
 
 resource "aws_instance" "web" {
-  ami           = ami-0fae88c1e6794aa17
+  ami           = "ami-0fae88c1e6794aa17"
   instance_type = "t2.micro"
 
   tags = {
     Name = "assignment_ec2_instance"
   }
 }
+```
