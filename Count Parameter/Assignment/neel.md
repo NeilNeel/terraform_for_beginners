@@ -20,7 +20,9 @@ The solution is implemented across three files inside `neel answer`:
 
 ### To run
 
+```
 1. cd neel asnwer
 2. terraform init
 3. terraform plan
 4. terraform apply -auto-approve
+```
